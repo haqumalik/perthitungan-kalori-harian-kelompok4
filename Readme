@@ -1,11 +1,12 @@
 Kelompok 4 Kelas C
 
 Anggota Kelompok : 
-1. Haqu Malik Umar (I0324105)
-2. Muhammad Anassakti Keswahyupi (I0324118)
-3. Salwa Ani Faiqoh (I0324102)
-4. Nathania Dyah Prameswari (I0324093)
+1. Nathania Dyah Prameswari (I0324093) 
+2. Salwa Ani Faiqoh (I0324102)
+3. Haqu Malik Umar (I0324105)
+4. Muhammad Anassakti Keswahyupi (I0324118)
 
 Tema: Perhitungan Kalori Harian
 Deskripsi singkat: 
-Sistem ini digunakan untuk menghitung jumlah kalori yang dikonsumsi pengguna dalam sehari berdasarkan makanan yang diinput. Dan sistem akan mendeteksi apakah kalori yang dikonsumsi melebihi atau kurang dari kebutuhan kalori harian 
+Sistem ini digunakan untuk menghitung kebutuhan kalori harian pengguna berdasarkan jenis kelamin usia dengan sistem log in username dan password (membuat akun baru jika tidak mempunyai akun).
+Menginput makanan yang dimakan dalam sehari dan kalorinya  per 100 gram(disimpan di json) dan simpan history makanan perhari di JSON.

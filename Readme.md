@@ -3,7 +3,7 @@
 ## Anggota Kelompok :
 1. **Nathania Dyah Prameswari** (I0324093)  
 2. **Salwa Ani Faiqoh** (I0324102)  
-3. **Haq Malik Umar** (I0324105)  
+3. **Haqu Malik Umar** (I0324105)  
 4. **Muhammad Anassakti Keswahyupi** (I0324118)  
 
 ## Tema: Perhitungan Kalori Harian  

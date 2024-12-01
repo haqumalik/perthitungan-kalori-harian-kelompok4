@@ -9,10 +9,10 @@
 ## Tema: Perhitungan Kalori Harian  
 
 ### Deskripsi Singkat:
-Sistem ini dirancang untuk membantu pengguna menghitung kebutuhan kalori harian berdasarkan parameter tertentu, seperti usia, jenis kelamin, dan aktivitas. Selain itu, pengguna dapat menginput makanan ataupun minuman yang dikonsumsi beserta kalorinya per 100 gram, sehingga sistem dapat merekam dan menyimpan riwayat makanan yang dikonsumsi. 
+Sistem ini dirancang untuk membantu pengguna menghitung kebutuhan kalori harian berdasarkan parameter tertentu, seperti usia dan jenis kelamin. Selain itu, pengguna dapat menginput makanan (dalam gram) ataupun minuman (dalam ml) yang dikonsumsi , sehingga sistem dapat merekam dan menyimpan riwayat makanan atau minuman yang dikonsumsi. 
 
 ### Fitur:
-- **Menginput makanan** yang dimakan dalam sehari dan kalorinya per 100 gram (disimpan di JSON).  
+- **Menginput makanan atau minuman ** yang dikonsumsi dalam sehari dan kalorinya per (gram/ml) (disimpan di JSON).  
 - **Menyimpan history makanan per hari** di file JSON untuk pelacakan kalori.
 
 ---

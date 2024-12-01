@@ -12,7 +12,7 @@
 Sistem ini dirancang untuk membantu pengguna menghitung kebutuhan kalori harian berdasarkan parameter tertentu, seperti usia dan jenis kelamin. Selain itu, pengguna dapat menginput makanan (dalam gram) ataupun minuman (dalam ml) yang dikonsumsi , sehingga sistem dapat merekam dan menyimpan riwayat makanan atau minuman yang dikonsumsi. 
 
 ### Fitur:
-- **Menginput makanan atau minuman ** yang dikonsumsi dalam sehari dan kalorinya per (gram/ml) (disimpan di JSON).  
+- **Menginput makanan atau minuman** yang dikonsumsi dalam sehari dan kalorinya per (gram/ml) (disimpan di JSON).  
 - **Menyimpan history makanan per hari** di file JSON untuk pelacakan kalori.
 
 ---

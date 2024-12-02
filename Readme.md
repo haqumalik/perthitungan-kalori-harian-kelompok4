@@ -16,3 +16,6 @@ Sistem ini dirancang untuk membantu pengguna menghitung kebutuhan kalori harian 
 - **Menyimpan history makanan per hari** di file JSON untuk pelacakan kalori.
 
 ---
+**Flowchart Perhitungan Kalori Harian**
+![PROKOM RAWR drawio](https://github.com/user-attachments/assets/19c93e1a-43a7-4756-a2a1-f37ac98490d0)
+start

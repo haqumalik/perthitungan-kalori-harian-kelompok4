@@ -18,4 +18,16 @@ Sistem ini dirancang untuk membantu pengguna menghitung kebutuhan kalori harian 
 ---
 **Flowchart Perhitungan Kalori Harian**
 ![PROKOM RAWR drawio](https://github.com/user-attachments/assets/19c93e1a-43a7-4756-a2a1-f37ac98490d0)
-start
+
+### Cara menggunakan:
+Mulai(start) : sistem dimulai dengan menu login
+- kemudian akan muncul laman login dengan 2 pilihan
+- input pilihan
+- jika memilih tidak, program akan meminta user untuk menginput data diri, selanjutnya sistem akan membuat akun dan menyimpan data user ke dalam database, setelah berhasil, user akan lanjut ke langkah berikutnya untuk menghitung total kalori harian
+- jika memilih ya, program akan meminta user untuk memasukan username dan password yang telah dibuat, jika validasi berhasil, user akan dilanjutkan ke sistem menghitung total kalori harian, jika validasi gagal, user akan kembali ke menu login
+- Setelah login berhasil, sistem akan menghitung kebutuhan kalori harian sesuai data diri yang dimasukkan
+- kemudian sistem akan menampilkan menu utama dengan 3 pilihan
+- Jika memilih pilihan 1(menginput makanan yang dikonsumsi), user akan diminta memasukan nama makanan dan jumlahnya (gram), kemudian sistem kaan menyimpannya ke dalam database, sistem akan menanyakan kembali apakah user ingin menambahkan makanan kembali, jika ya, sistem akan mengulangi sistem menginput nama makanan, jika tidak, sistem akan menyimpan riwayat konsumsi harian
+- jika memilih pilihan 2(riwayat makanan), sistem akan menampilkan riwayat konsumsi makanan harian
+- jika memilih pilihan 3(logout), sistem akan keluar dari akun user.
+Selesai(End): mengakhiri sistem bekerja

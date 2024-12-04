@@ -14,6 +14,25 @@
     "teh hangat": {"jenis": "minuman", "kalori": 20},
     "kopi hitam": {"jenis": "minuman", "kalori": 2},
     "kopi susu": {"jenis": "minuman", "kalori": 70},
-    "wedang jahe": {"jenis": "minuman", "kalori": 50}
+    "wedang jahe": {"jenis": "minuman", "kalori": 50},
+    "magelangan": {"jenis": "makanan", "kalori": 350},
+    "jagung rebus": {"jenis": "makanan", "kalori": 36.08},
+    "kentang rebus": {"jenis": "makanan", "kalori": 83},
+    "ketan putih": {"jenis": "makanan", "kalori": 72.3},
+    "ketupat": {"jenis": "makanan", "kalori": 200},
+    "talas rebus": {"jenis": "makanan", "kalori": 98},
+    "singkong rebus": {"jenis": "makanan", "kalori": 146},
+    "ubi rebus": {"jenis": "makanan", "kalori": 125},
+    "crackers": {"jenis": "makanan", "kalori": 458},
+    "macaroni": {"jenis": "makanan", "kalori": 364},
+    "nasi uduk": {"jenis": "makanan", "kalori": 253},
+    "bihun goreng": {"jenis": "makanan", "kalori": 197.3},
+    "bubur sumsum": {"jenis": "makanan", "kalori": 178},
+    "kentang goreng": {"jenis": "makanan", "kalori": 140},
+    "mie goreng": {"jenis": "makanan", "kalori": 160.5},
+    "soun goreng": {"jenis": "makanan", "kalori": 263},
+    "paghetti": {"jenis": "makanan", "kalori": 214},
+    "tape singkong": {"jenis": "makanan", "kalori": 173.3},
+    "ayam panggang bumbu kuning": {"jenis": "makanan", "kalori": 129.4}
     }
     }

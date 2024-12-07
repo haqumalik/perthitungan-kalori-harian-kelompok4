@@ -94,6 +94,10 @@ class UserSystem:
         }
         self.simpan_riwayat()
         print(f"Akun dengan username {username} berhasil dibuat!")
+        os.system("cls")
+        print("Tunggu sebentar...")
+        time.sleep(2)
+        os.system("cls")
         return username
 
     def edit_biodata(self):

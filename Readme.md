@@ -17,8 +17,7 @@ Sistem ini dirancang untuk membantu pengguna menghitung kebutuhan kalori harian 
 
 ---
 **Flowchart Perhitungan Kalori Harian**
-![FLOWCHART NEW drawio (1)](https://github.com/user-attachments/assets/3d4e799a-84f9-4896-a3b8-a9f4e6ee1987)
-
+![Flowchart Perhitungan Kalori Harian drawio](https://github.com/user-attachments/assets/74a190ee-337d-4594-b537-994adece6ce7)
 
 
 ### Cara menggunakan:

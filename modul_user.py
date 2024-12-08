@@ -46,12 +46,25 @@ class UserSystem:
 
     def login(self):
         print("=== Login ===")
+        
+        # Meminta username
         username = input("Masukkan username: ").strip()
-        if username in self.user_data:
-            for _ in range(3):
-                password = input("Masukkan password: ").strip()
-                if self.user_data[username]["password"] == password:
-                    os.system("cls")
+        if username not in self.user_data:
+            # Menangani jika username tidak ditemukan
+            print(f"Username '{username}' tidak ditemukan.")
+            pilihan = input("Apakah Anda ingin membuat akun baru? (ya/tidak): ").strip().lower()
+            if pilihan == "ya":
+                return self.register(username)
+            else:
+                print("Silakan coba login dengan username lain.")
+                return None
+        
+        # Jika username ditemukan, lanjut ke password
+        for _ in range(3):  # Memberikan 3 kesempatan untuk memasukkan password
+            password = input("Masukkan password: ").strip()
+            if password == self.user_data[username]["password"]:
+                # Login berhasil
+                os.system("cls")
                 print("Tunggu sebentar...")
                 time.sleep(2)
                 os.system("cls")
@@ -59,17 +72,11 @@ class UserSystem:
                 self.current_user = username
                 return username
             else:
-                    print("Password salah. Silakan coba lagi.")
-            print("Anda telah gagal login 3 kali. Silakan coba lagi nanti.")
-            return None
-        else:
-            print(f"Username {username} tidak ditemukan.")
-            pilihan = input("Apakah Anda ingin membuat akun baru? (ya/tidak): ").strip().lower()
-            if pilihan == "ya":
-                return self.register(username)
-            else:
-                print("Silakan coba login dengan username lain.")
-                return None
+                print("Password salah. Silakan coba lagi.")
+        
+        # Jika 3 kali salah memasukkan password
+        print("Anda telah gagal login 3 kali. Silakan coba lagi nanti.")
+        return None
 
     def register(self, username=None):
         if not username:

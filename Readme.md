@@ -23,13 +23,14 @@ Sistem ini dirancang untuk membantu pengguna menghitung kebutuhan kalori harian 
 
 ### Cara menggunakan:
 Mulai(start) : sistem dimulai dengan menu login
-- kemudian akan muncul laman login dengan 2 pilihan
+- kemudian akan muncul laman login dengan 2 pilihan yaitu login dan register
 - input pilihan
-- jika memilih tidak, program akan meminta user untuk menginput data diri, selanjutnya sistem akan membuat akun dan menyimpan data user ke dalam database, setelah berhasil, user akan lanjut ke langkah berikutnya untuk menghitung total kalori harian
-- jika memilih ya, program akan meminta user untuk memasukan username dan password yang telah dibuat, jika validasi berhasil, user akan dilanjutkan ke sistem menghitung total kalori harian, jika validasi gagal, user akan kembali ke menu login
+- jika user belum mempunyai akun, program akan meminta user untuk menginput username, password, dan biodata. jika akun telah terbuat, user akan lanjut ke fungsi berikutnya.
+- jika user telah memiliki akun, user diminta untuk menginput username dan password yang telah dibuat, jika username dan password telah tervalidasi, user akan lanjut ke fungsi berikutnya.
 - Setelah login berhasil, sistem akan menghitung kebutuhan kalori harian sesuai data diri yang dimasukkan
 - kemudian sistem akan menampilkan menu utama dengan 3 pilihan
-- Jika memilih pilihan 1(menginput makanan yang dikonsumsi), user akan diminta memasukan nama makanan dan jumlahnya (gram), kemudian sistem kaan menyimpannya ke dalam database, sistem akan menanyakan kembali apakah user ingin menambahkan makanan kembali, jika ya, sistem akan mengulangi sistem menginput nama makanan, jika tidak, sistem akan menyimpan riwayat konsumsi harian
-- jika memilih pilihan 2(riwayat makanan), sistem akan menampilkan riwayat konsumsi makanan harian
-- jika memilih pilihan 3(logout), sistem akan keluar dari akun user.
+- Jika memilih pilihan 1(menginput makanan yang dikonsumsi), user akan diminta memasukan nama makanan dan jumlahnya (per 100 gram), kemudian sistem akan menyimpannya ke dalam database, sistem akan menanyakan kembali apakah user ingin menambahkan makanan kembali, jika ya, sistem akan mengulangi fungsi menginput nama makanan, jika tidak, sistem akan menyimpan riwayat konsumsi harian dan kembali ke menu utama.
+- jika memilih pilihan 2(riwayat makanan), sistem akan menampilkan 3 pilihan kembali. jika memilih pilihan 1(riwayat hari ini), sistem akan menampilkan kalori makanan dan minuman hari ini yang tersimpan di dalam database dan kembali ke menu utama. jika memilih pilihan 2(riwayat tanggal tertentu), user diminta untuk menginput tanggal yang diinginkan dan sistem akan menampilkan tanggal yang telah diinput yang telah tersimpan di dalam database kemudian kembali ke menu utama. jika memilih pilihan 3(seluruh riwayat), sistem akan menampilkan seluruh riwayat kalori makanan yang telah tersimpan di dalam database.
+- jika memilih pilihan 3(edit biodata), sistem akan meminta user untuk mengisi biodata yang baru dan akan menyimpan biodata baru ke dalam database.
+- jika memilih pilihan 4(logout), sistem akan keluar dari akun user dan kembali ke halaman login.
 Selesai(End): mengakhiri sistem bekerja

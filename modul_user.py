@@ -79,6 +79,10 @@ class UserSystem:
         return None
 
     def register(self, username=None):
+        os.system("cls")
+        print("Tunggu sebentar...")
+        time.sleep(2)
+        os.system("cls")
         if not username:
             username = input("Masukkan username yang ingin digunakan: ").strip()
         nama = input("Masukkan nama Anda: ").strip()
